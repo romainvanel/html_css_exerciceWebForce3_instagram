@@ -1,0 +1,328 @@
+html {
+    cursor: pointer;
+}
+
+html, body {
+    height: 100%;
+    margin: 0
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+main {
+    height: 100%;
+    position: relative;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    height: 100%;
+}   
+
+.mainImg {
+    background-image: url(./img/home-phones.png);
+    background-repeat: no-repeat;
+    height: 581.15px;
+    width: 380.32px;
+    background-position: -46px 0;
+    position: relative;
+}
+
+.imageBox {
+    margin-left: 112px;
+    margin-top: 27px;
+}
+
+.image1, .image2, .image3, .image4 {
+    position: absolute;
+}
+
+.anim {
+    animation-name: opacityImg;
+    animation-delay: 0;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+.anim2 {
+    animation-name: opacityImg2;
+    animation-delay: 0;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+.anim3 {
+    animation-name: opacityImg3;
+    animation-delay: 0;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+.anim4 {
+    animation-name: opacityImg4;
+    animation-delay: 0;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes opacityImg {
+    0% {
+        opacity: 1;
+    }
+    12.5% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0;
+    }
+    87.5% {
+        opacity:0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes opacityImg2 {
+    0% {
+        opacity: 0;
+    }
+    12.5% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    37.5% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+@keyframes opacityImg3 {
+    0% {
+        opacity: 0;
+    }
+    37.5% {
+        opacity: 0;
+    }
+    50% {
+        opacity:1;
+    }
+    62.5% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes opacityImg4 {
+    0% {
+        opacity: 0;
+    }
+    62.5% {
+        opacity: 0;
+    }
+    75% {
+        opacity:1;
+    }
+    87.5% {
+        opacity: 1;
+    }
+    100%{
+        opacity:0;
+    }
+}
+
+
+.inscriptionBox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 350px;
+}
+
+
+.inscription, .noCompte {
+    border: 1px solid rgb(219, 219, 219);
+}
+
+.inscription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 30px;
+}
+
+.inscriptionTop {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram {
+    background-image: url(./img/ajlEU-wEDyo.png);
+    height: 51px;
+    background-position: 0 -52px;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 175px;
+    background-size: auto;
+}
+
+.connection button {
+    background-color: rgb(0, 149, 246);
+    opacity: 0.7;
+    border: none;
+    color: white;
+    padding: 7px 16px;
+    border-radius: 8px;
+}
+ button, input {
+    width: 100%;
+
+}
+.input {
+    background-color: rgb(250, 250, 250);
+    padding: 9px 0 7px 8px;
+    border: 0.5px solid rgb(206, 203, 203);
+    border-radius: 3px; 
+}
+
+.ou {
+    display: flex;
+    justify-content: center;
+}
+
+.trait {
+    background-color: grey;
+    height: 1px;
+    flex: 1;
+    position: relative;
+    bottom: -0.45em;
+}
+
+.trait1 {
+    margin-right: 10px;
+}
+
+.trait2 {
+    margin-left: 10px;
+}
+
+.seConnecter {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: white;
+    border: none;
+}
+
+.seConnecterTexte {
+    color: #385185;
+}
+
+.noCompte {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.motOublie button {
+    background-color: white;
+    border: none;
+    color: rgb(0, 55, 107);
+}
+
+.noCompte button {
+    background-color: white;
+    border: none;
+    color:  rgb(0, 149, 246);
+    font-weight: bold;
+}
+.telecharger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+.imgGoogle, .imgMicrosoft{
+    height: 40px;
+}
+
+.imgGoogleBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+footer {
+    /* position: absolue;
+    bottom: 0; */
+    width: 100%;
+    margin-bottom: 50px;
+}
+.footerBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    font-size: 0.8em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: rgb(115, 115, 115);
+}
+
+.footer1 a {
+    color: rgb(115, 115, 115);
+    text-decoration: none;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: rgb(115, 115, 115);
+}
+
+.footer2 select {
+    background-color: white;
+    border: none;
+    color: rgb(115, 115, 115);
+}
+
+@media screen and (max-width: 900px) {
+    .mainImg {
+        display: none;
+    }
+}
